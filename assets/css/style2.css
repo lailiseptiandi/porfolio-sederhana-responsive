@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+/* body {
+  background: #2E282A;
+  font-family: 'Open Sans', sans-serif;
+} */
+
+.container2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  /* background-color: #ddd; */
+}
+
+h2 {
+  color: #fff;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #db3a34;
+}
+
+.bar {
+  width: 90%;
+  height: 35px;
+  background: #ddd;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1,
+.my-skills {
+  width: 80%;
+  color: black;
+  margin: 5px auto 25px;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 18px;
+}
+
+/* anime js */
+
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+tr,
+td {
+  border: 0px solid black;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+
+#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+#t01 th {
+  background-color: black;
+  color: white;
+}
